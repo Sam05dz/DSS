@@ -1,0 +1,39 @@
+
+
+<!-- Mini Projet XML - Module : Les Données Semi-structurées -Houssam HAMOUDA -->
+
+<!ELEMENT CV ( Entête ,Poste_actuel ,diplôme_obtenues ,Stages ,
+Compétences_techniques,Langues ,Loisirs ,CVI  ) >
+<!ELEMENT ID ( nom |prénom  )*>
+<!ATTLIST CV ID NMTOKEN #REQUIRED >
+<!ELEMENT Entête ( nom, prénom, date_et_lieu_de_naissance, adresse_émail, image ) >
+
+<!ELEMENT Poste_actuel ( poste_actuel+ ) >
+<!ELEMENT diplôme_obtenues ( diplôme_obtenue+ ) >
+
+<!ELEMENT Stages ( stage+ ) >
+<!ELEMENT 
+Compétences_techniques ( compétence_technique+ ) >
+<!ELEMENT Langues ( langue+ )>
+<!ELEMENT Loisirs ( loisir+ )>
+<!ELEMENT nom (#PCDATA) >
+<!ELEMENT prénom (#PCDATA) >
+
+<!ELEMENT date_et_lieu_de_naissance (#PCDATA) >
+
+<!ELEMENT adresse_émail (#PCDATA) >
+
+<!ELEMENT image (#PCDATA) >
+<!ELEMENT diplôme_obtenue ( #PCDATA ) >
+<!ELEMENT poste_actuel (#PCDATA) >
+<!ELEMENT compétence_technique (#PCDATA) >
+<!ELEMENT stage (#PCDATA) >
+<!ELEMENT langue (#PCDATA) >
+<!ELEMENT loisir (#PCDATA) >
+
+
+
+
+
+
+

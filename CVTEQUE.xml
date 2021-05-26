@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!DOCTYPE CV SYSTEM "C:\Users\DEW-INFO\Desktop\cvtech\CVTEQUE.dtd">
+<CV ID="VALUE">
+	<Entête>
+		<nom>VALUE</nom>
+		<prénom>VALUE</prénom>
+		<date_et_lieu_de_naissance>VALUE</date_et_lieu_de_naissance>
+		<adresse_émail>VALUE</adresse_émail>
+		<image>VALUE</image>
+	</Entête>
+	<Poste_actuel>
+		<poste_actuel>VALUE</poste_actuel>
+	</Poste_actuel>
+	<diplôme_obtenues>
+		<diplôme_obtenue>VALUE</diplôme_obtenue>
+	</diplôme_obtenues>
+	<Stages>
+		<stage>VALUE</stage>
+	</Stages>
+	<Compétences_techniques>
+		<compétence_technique>VALUE</compétence_technique>
+	</Compétences_techniques>
+	<Langues>
+		<langue>VALUE</langue>
+	</Langues>
+	<Loisirs>
+		<loisir>VALUE</loisir>
+	</Loisirs>
+</CV>
